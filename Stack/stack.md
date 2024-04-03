@@ -18,9 +18,9 @@ Additionally, stacks typically include a method to check if the stack is empty a
 So, let us start first with defining our backbone structure for the Stack object.
 It will have the following structure:
 
--Array: to store the data
--Top: pointer to the top of the stack
--Capacity: current capacity of the stack.
+ * Array: to store the data
+ * Top: pointer to the top of the stack
+ * Capacity: current capacity of the stack.
 
 
    ```go
