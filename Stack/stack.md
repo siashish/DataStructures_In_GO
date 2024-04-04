@@ -23,14 +23,14 @@ It will have the following structure:
  * Capacity: current capacity of the stack.
 
 
-   ```go
-    //Stack definition of stack object
-    type Stack struct {
-        top        int
-        capacity   int
-        stackArray []interface{}
-    }
-   ```
+```go
+//Stack definition of stack object
+type Stack struct {
+    top        int
+    capacity   int
+    stackArray []interface{}
+}
+```
 
 **Push Operation:**
    This operation will take the data as the input, and store the same, at the same time the top variable is incremented to point to the last element.
@@ -49,7 +49,7 @@ It will have the following structure:
     }
    ```
 
-3. **Pop Operation:**
+**Pop Operation:**
    This method will return the data present at the top of the stack and decrement the top pointer to point to the latest element in the stack.
 
     If we try to pop out of an empty stack, it is known as “underflow”.
@@ -80,7 +80,7 @@ It will have the following structure:
     }
    ```
 
-5. **Empty Check:**
+**Empty Check:**
    The `IsEmpty` method checks if the stack is empty.
 
    ```go
