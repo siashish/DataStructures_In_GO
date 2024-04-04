@@ -94,7 +94,7 @@ type Stack struct {
 
 Now that we've defined the `Stack` struct and its methods, let's see how we can use the stack in practice:
 
-See the whole code in [stack.go](https://github.com/siashish/DataStructures_In_GO/blob/main/Stack/stack.go) file
+See the whole code in [stack.go](https://github.com/siashish/DataStructures_In_GO/blob/main/Stack/stack.go) file and run on [Go Playground](https://go.dev/play/p/9jDvPENdsrF)
 
 
 In this example, we create a new stack, push elements onto it, peek at the top element, pop elements, and check if the stack is empty. The output demonstrates the expected behavior of a stack following the LIFO principle.
